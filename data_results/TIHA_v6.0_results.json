@@ -1,1 +1,38 @@
-
+{
+    "model_version": "TIHA_v6.0_Comparative_Validation",
+    "N_participantes": 32,
+    "Model_A_v5_1_EEG": {
+        "components": [
+            "Phi (Integracao Alfa)",
+            "E (Entropia Espectral)",
+            "S (Surpresa EEG-Fz)"
+        ],
+        "validation_hedonic_VH": {
+            "R2_mean": 0.18097540511069304,
+            "R2_p_value": 1.6589396361484805e-11,
+            "MAE_mean": 0.38577799670947943,
+            "r_mean": 0.4023112424732257
+        },
+        "robustness_VIF": {
+            "VIF_max": 2.739143477522723,
+            "verdict": "SUCESSO (VIF < 5)"
+        }
+    },
+    "Model_B_v6_0_SNP_TIHA_Lite": {
+        "components": [
+            "HRV (RMSSD)",
+            "EDA (Phasic Peaks)",
+            "S (Surpresa GSR-Var)"
+        ],
+        "validation_hedonic_VH": {
+            "R2_mean": 0.09138260828355639,
+            "R2_p_value": 4.8871076121931885e-11,
+            "MAE_mean": 0.4143565519517972,
+            "r_mean": 0.2869703111822286
+        },
+        "robustness_VIF": {
+            "VIF_max": 1.0971335283278372,
+            "verdict": "SUCESSO (VIF < 5)"
+        }
+    }
+}
