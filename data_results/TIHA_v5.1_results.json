@@ -1,1 +1,41 @@
-
+{
+    "model_version": "TIHA_v5.1_Ridge_Paradox",
+    "model_components": [
+        "Phi (Alpha Integration)",
+        "E (Spectral Entropy)",
+        "S (Surprise/Variance)"
+    ],
+    "model_type": "Ridge Regression (alpha=1.0)",
+    "N_participants": 32,
+    "validation_hedonic_VH": {
+        "R2_mean": 0.18097540511069304,
+        "R2_p_value": 1.6589396361484805e-11,
+        "MAE_mean": 0.38577799670947943,
+        "r_mean": 0.4023112424732257
+    },
+    "validation_eudaimonic_VE": {
+        "R2_mean": 0.1512109167974665,
+        "R2_p_value": 3.153285747779968e-10,
+        "MAE_mean": 0.411890814389777,
+        "r_mean": 0.3676846139246862
+    },
+    "robustness_VIF": {
+        "VIF_Phi_mean": 2.417135221753216,
+        "VIF_E_mean": 1.7877322566626268,
+        "VIF_S_mean": 2.739143477522723,
+        "VIF_max": 2.739143477522723,
+        "verdict": "SUCCESS (VIF < 5)"
+    },
+    "driver_analysis_VH": {
+        "driver_Phi_mean_abs_beta": 0.13558365540181028,
+        "driver_E_mean_abs_beta": 0.12521582307407603,
+        "driver_S_mean_abs_beta": 0.0898366059479501,
+        "primary_driver": "Phi (Integration)"
+    },
+    "idiosyncratic_paradox_VH": {
+        "p_value_mean_beta_Phi": 0.22926276168302892,
+        "p_value_mean_beta_E": 0.27595350728253076,
+        "p_value_mean_beta_S": 0.10360652054327917,
+        "verdict": "SUCCESS (Paradox Confirmed, p > 0.05)"
+    }
+}
