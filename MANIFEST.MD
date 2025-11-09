@@ -1,6 +1,9 @@
 ## The Hybrid Affective Integration (TIHA) v6.0 Manifest
 
-**Date:** November 8, 2025 **Author:** Leandro Antonio da Silva Pacheco **OSF Project DOI:** [https://doi.org/10.17605/OSF.IO/BJ2TS](https://doi.org/10.17605/OSF.IO/BJ2TS "null") **GitHub Repository:** `github.com/leandroantoniodasilvapacheco/TIHA-MLI-v6.0`
+**Date:** November 8, 2025 
+**Author:** Leandro Antonio da Silva Pacheco 
+**OSF Project DOI:** [https://doi.org/10.17605/OSF.IO/BJ2TS](https://doi.org/10.17605/OSF.IO/BJ2TS "null") 
+**GitHub Repository:** `github.com/leandroantoniodasilvapacheco/TIHA-MLI-v6.0`
 
 ### Preamble: From Robustness to the Pivot (The End of EEG-Dependency)
 
